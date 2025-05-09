@@ -94,6 +94,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: auto;
 }
 .humidity{
     display: flex;
@@ -156,4 +157,35 @@
 .hide{
     opacity: 1;
     transition: opacity 2s linear 0s;
+}
+@media (max-width:390px){
+    .data input{
+        height: 30px;
+        font-size:15px;
+}
+.data button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: wheat;
+    margin: 20px;
+}
+.windspeed{
+    gap: 5px;
+}
+.windspeed svg{
+    color: wheat;
+}
+h2{
+    font-size: 15px;
+}
+.other-info{
+    paddding:auto;
+}
 }
