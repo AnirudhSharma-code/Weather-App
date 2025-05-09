@@ -102,7 +102,6 @@
     align-items: center;
     gap: 20px;
     color: wheat;
-    margin: 20px;
 }
 .humidity svg{
     color: white;
@@ -159,14 +158,14 @@
     transition: opacity 2s linear 0s;
 }
 @media (max-width:390px){
-    .data input{
-        height: 30px;
-        font-size:15px;
+.data input{
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
 }
 .data button{
-    width: 30px;
     height: 30px;
-    border-radius: 50%;
+    width: 30px;
 }
 .humidity{
     display: flex;
@@ -187,5 +186,8 @@ h2{
 }
 .other-info{
     paddding:auto;
+}
+.humidity ,.windspeed{
+    gap: 10px;
 }
 }
